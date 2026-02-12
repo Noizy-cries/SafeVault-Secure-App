@@ -1,8 +1,6 @@
 # SafeVault Secure API
 A secure ASP.NET Core Web API with JWT authentication, role-based authorization, and protection against SQL injection & XSS attacks.
 ## 🚀 Quick Start
-# Clone
-git clone https://github.com/YOUR_USERNAME/SafeVault-Secure-App.git
 # Run
 cd SafeVault-Secure-App
 dotnet run
@@ -28,3 +26,4 @@ POST	/api/admin/users/{id}/deactivate	Deactivate user	✅ Admin
 Register: POST http://localhost:5072/api/auth/register
 Login: POST http://localhost:5072/api/auth/login
 Use token in Header: Authorization: Bearer YOUR_TOKEN
+
